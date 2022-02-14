@@ -37,6 +37,7 @@
   color: #4a4e74;
 }
 .buttons {
+  padding: 1.7rem 1.5rem 2.5rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
