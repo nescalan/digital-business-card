@@ -8,4 +8,6 @@
   -- Names
   -- Buttons
 
+  Design example: (https://raw.githubusercontent.com/nescalan/digital-business-card/main/src/assets/card-example.png)
+
 NOTE: This project is a challenge from scrimba [Create React App](https://scrimba.com).
