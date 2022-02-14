@@ -3,10 +3,13 @@
 - Build from scratch!
 - Fill in your own information
 - Separate components for:
-  -- Info
-  -- Photos
-  -- Names
-  -- Buttons
+
+```sh
+  Info
+  Photos
+  Names
+  Buttons
+```
 
 ## Design example:
 
