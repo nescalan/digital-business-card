@@ -7,37 +7,31 @@
 .image-card {
   width: 317px;
   min-width: 317px;
-  /* height: 310px; */
   min-height: 317px;
   background-image: url(../../assets/LauraSmith.png);
 }
 .info-card {
-  margin-top: 0;
+  border: 1px solid red;
   height: 399px;
+  padding: 20px 35px 31px 35px;
 }
 .center {
   text-align: center;
-  line-height: 0;
 }
 .center > h1 {
-  margin-top: 2rem;
   font-size: 2.5rem;
   color: #2b283a;
-  line-height: 0;
 }
 .center > span {
-  margin-top: 2rem;
-  margin-bottom: 8.81px;
-  display: block;
+  margin-top: 0.5rem;
   font-size: 1.28rem;
   color: #f47d27;
 }
 .center > p {
-  margin-top: 1.5rem;
+  margin-top: 0.881rem;
   color: #4a4e74;
 }
 .buttons {
-  padding: 1.7rem 1.5rem 2.5rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +39,39 @@
 .btn {
   width: 115px;
   height: 34px;
+  margin-top: 17px;
+  padding: 9px 13px 9px 11px;
   border-radius: 6px;
-  border: 1px solid;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-email {
+  background-color: #fff;
+}
+.btn-email > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.btn-email > span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+}
+.btn-linkedin {
+  background-color: #297fe5;
+}
+.btn-linkedin > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.btn-linkedin > span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
 }

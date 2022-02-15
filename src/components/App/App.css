@@ -9,5 +9,8 @@ html {
 body {
   font-size: 1.3rem;
   font-family: "Inter", sans-serif;
+}
+.app {
+  height: 100vh;
   background-color: #23252c;
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import mail from "../../assets/Mail.png";
+import linkedin from "../../assets/linkedin.png";
 import "./BusinessCard.css";
 
 const BusinessCard = () => {
@@ -14,8 +16,14 @@ const BusinessCard = () => {
         </div>
 
         <div className="buttons">
-          <button className="btn">Email</button>
-          <button className="btn">LinkedIn</button>
+          <button className="btn btn-email">
+            <img src={mail} alt="email button" />
+            <span>Email</span>
+          </button>
+          <button className="btn btn-linkedin">
+            <img src={linkedin} alt="linkedin button" />
+            <span>LinkedIn</span>
+          </button>
         </div>
 
         <div className="content-card">
