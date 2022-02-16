@@ -34,12 +34,15 @@ const BusinessCard = () => {
             security and best practices, and am always looking for new things to
             learn.
           </p>
-          <spant>Interests</spant>
+          <span>Interests</span>
           <p>
             Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
             Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
           </p>
         </div>
+      </div>
+      <div className="footer-card">
+        <h1>footer-card</h1>
       </div>
     </div>
   );

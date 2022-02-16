@@ -48,6 +48,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
+  font-size: 14px;
 }
 .btn-email {
   background-color: #fff;
@@ -58,8 +60,6 @@
   margin-right: 8px;
 }
 .btn-email > span {
-  font-weight: 500;
-  font-size: 14px;
   color: #374151;
 }
 .btn-linkedin {
@@ -74,4 +74,26 @@
   color: #fff;
   font-weight: 500;
   font-size: 14px;
+}
+.content-card {
+}
+.content-card > span {
+  margin-top: 25px;
+  display: block;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #2b283a;
+}
+.content-card > p {
+  margin-top: 5px;
+  line-height: 150%;
+  font-size: 1.024rem;
+  color: #4a4e74;
+}
+.footer-card {
+  border: 1px solid red;
+  height: 64px;
+  width: 317px;
+  border-radius: 0 0 10px 10px;
+  background-color: #d5d4d8;
 }
