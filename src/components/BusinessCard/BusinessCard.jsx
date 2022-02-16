@@ -1,6 +1,11 @@
 import React from "react";
-import mail from "../../assets/Mail.png";
-import linkedin from "../../assets/linkedin.png";
+import mail from "../../assets/Mail.svg";
+import linkedin from "../../assets/linkedin.svg";
+import twitter from "../../assets/TwitterIcon.svg";
+import facebook from "../../assets/FacebookIcon.svg";
+import instagram from "../../assets/InstagramIcon.svg";
+import github from "../../assets/GitHubIcon.svg";
+
 import "./BusinessCard.css";
 
 const BusinessCard = () => {
@@ -42,7 +47,12 @@ const BusinessCard = () => {
         </div>
       </div>
       <div className="footer-card">
-        <h1>footer-card</h1>
+        <div className="footer-icons">
+          <img src={twitter} alt="" />
+          <img src={facebook} alt="" />
+          <img src={instagram} alt="" />
+          <img src={github} alt="" />
+        </div>
       </div>
     </div>
   );
