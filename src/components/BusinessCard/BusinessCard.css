@@ -74,10 +74,8 @@
   font-weight: 500;
   font-size: 14px;
 }
-.content-card {
-  margin-top: 25px;
-}
 .content-card > span {
+  margin-top: 25px;
   display: block;
   font-weight: 700;
   font-size: 1.6rem;
